@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout of the main chat. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+  <ScrollView android:id="@+id/mainChatScroll"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_above="@+id/mainChatInput">
+
+    <TextView android:id="@+id/mainChatView"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+  </ScrollView>
+
+  <EditText android:id="@+id/mainChatInput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
