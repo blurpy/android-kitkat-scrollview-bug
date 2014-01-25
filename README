@@ -1,6 +1,8 @@
 
 Project based on KouChat to test a scroll bug in Android 4.4 (KitKat).
 
+See http://code.google.com/p/android/issues/detail?id=65249
+
 
 Copyright 2006-2014 Christian Ihle
 http://www.kouchat.net/
